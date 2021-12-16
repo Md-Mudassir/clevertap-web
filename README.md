@@ -3,6 +3,9 @@ Wrapper to integrate CleverTap Web SDK with any SPA (React, Vue, Angular).
 
  **Note:** Events will not be caputed on localhost, events are only captured on production.
 
+ - Implementation Example (React)
+[React-CleverTap-Example](https://github.com/Md-Mudassir/clevertap-web/tree/master/example)
+
 ### Usage
 
 - Installation `npm install -D clevertap-web`
