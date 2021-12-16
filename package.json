@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Md-Mudassir/clevertap-web/issues"
   },
-  "homepage": "https://github.com/Md-Mudassir/clevertap-web#readme"
+  "homepage": "https://github.com/Md-Mudassir/clevertap-web#readme",
+  "dependencies": {
+    "clevertap-web": "^1.0.1"
+  }
 }
