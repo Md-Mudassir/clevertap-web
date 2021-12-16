@@ -1,6 +1,6 @@
 {
   "name": "clevertap-web",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wrapper to integrate CleverTap Web SDK with any SPA (React, Vue, Angular)",
   "main": "index.js",
   "scripts": {
