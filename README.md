@@ -1,6 +1,8 @@
 # clevertap-web
 Wrapper to integrate CleverTap Web SDK with any SPA (React, Vue, Angular).
 
+ **Note:** Events will not be caputed on localhost, events are only captured on production.
+
 ### Usage
 
 - Installation `npm install -D clevertap-web`
@@ -21,7 +23,7 @@ import CleverTapWeb from 'clevertap-web';
 // with the exception of one of Identity, Email, or FBID
 // each of the following fields is optional
 
-CleverTapWeb.onUserLogin.push({
+CleverTapWeb.onUserLogin({
  "Site": {
    "Name": "Jack Montana",            // String
    "Identity": 61026032,              // String or number
